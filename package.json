@@ -1,0 +1,20 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "Task Manager Desktop App",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "author": "Diego Ramos",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^19.0.8"
+    },
+    "dependencies": {
+        "electron-reload": "^2.0.0-alpha.1",
+        "fs-jetpack": "^4.3.1",
+        "fullcalendar": "^5.11.0"
+    }
+}

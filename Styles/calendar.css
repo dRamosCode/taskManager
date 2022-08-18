@@ -1,0 +1,92 @@
+.calendarContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 1em;
+	background-color: var(--basicMain);
+	box-shadow: 0px 0px 0.5em rgba(0, 0, 0, 30%);
+	color: var(--basicContrastText);
+	font-family: Nirmala;
+}
+.calendarTitle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -0.5em;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: var(--basicMain);
+	border-radius: 1em;
+	cursor: default;
+}
+.calendarDayNames {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	color: var(--basicContrastText);
+	font-weight: bolder;
+}
+
+.calendarDays {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.calendarLeftArrow {
+	font-size: 1.3em;
+	cursor: pointer;
+}
+.calendarRightArrow {
+	font-size: 1.3em;
+	cursor: pointer;
+}
+.calendarMonthName {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+.calendarDayName {
+}
+.calendarDay {
+	width: 14.28%;
+	text-align: center;
+	padding-top: 0.8em;
+	padding-bottom: 1em;
+	font-size: 0.85em;
+	cursor: pointer;
+}
+.currentDay {
+	background-color: var(--primary);
+	clip-path: circle(1.2em at center);
+	font-weight: bold;
+}
+.otherMonthDay {
+	cursor: default;
+	opacity: 50%;
+}
+
+/*Hovers*/
+.calendarLeftArrow:hover,
+.calendarRightArrow:hover {
+	font-weight: bolder;
+}
+.calendarDay:hover {
+	background-color: var(--primaryLight);
+	clip-path: circle(1.2em at center);
+}
+.currentDay:hover {
+	background-color: var(--primary);
+	clip-path: circle(1.2em at center);
+	font-weight: bold;
+}
+.otherMonthDay:hover {
+	cursor: default;
+	opacity: 30%;
+	background-color: white;
+}

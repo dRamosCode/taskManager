@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    <link href="./Styles/styles.css" rel="stylesheet">
+    <link href="./Styles/calendar.css" rel="stylesheet">
+
+    <title>Task Manager</title>
+</head>
+
+<body>
+    <div id="navigation" class="navigation">
+        <img id="menu_top" class="menu" src="./Icons/Light/menu.svg"></img>
+        <div id="title" class="title">Task Manager</div>
+        <img id="mode_min" class="mode_min" src="./Icons/Light/minimize.png"></img>
+        <img id="mode_footer" class="mode_footer" src="./Icons/Light/bar.png"></img>
+        <img id="close" class="close" src="./Icons/Light/close.png"></img>
+    </div>
+
+    <div id="content" class="content">
+        <div class="calendar">
+            <div class="calendarHeading">Calendar</div>
+            <div class="timetable" id="calendario"></div>
+            <div class="today">Today</div>
+        </div>
+        <div class="list">
+            <div class="tasksHeading">Tasks</div>
+            <div id="taskList" class="listContainer"></div>
+        </div>
+    </div>
+
+    <div id="footer" class="footer">
+        <img id="mode_max" class="mode_max" src="./Icons/Light/fullscreen.png"></img>
+        <input id="description" type="text" placeholder="Task..." class="description"></input>
+        <div id="play" class="play"></div>
+        <div id="pause" class="pause"></div>
+        <div id="time" class="time"></div>
+    </div>
+
+</body>
+
+</html>
