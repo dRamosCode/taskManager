@@ -8,6 +8,10 @@ It lets you track the time and store the info in a JSON file and come back to it
 
 ## Built with
 
+![](https://img.shields.io/badge/-%20Electron-9cf?style=for-the-badge)
+
+![](https://img.shields.io/badge/-%20fs_jetpack-inactive?style=flat-square)
+
 ![](https://img.shields.io/badge/-%20HTML5-orange)
 ![](https://img.shields.io/badge/-%20CSS3-green)
 ![](https://img.shields.io/badge/-%20Javascript-yellow)
