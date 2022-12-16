@@ -1,10 +1,10 @@
-# Task Manager Electron app (Windows)
+# Task Manager Electron app
 
 ![Layout](https://user-images.githubusercontent.com/98916189/185799604-7820d026-03d4-4545-bf1a-9ff584668554.PNG)
 
 # About the project
 
-**Task manager** is a Windows desktop app to easily track the time spent working on each task.
+**Task manager** is an Electron desktop app to easily track the time spent working on each task.
 
 It lets you track the time and store the info in a JSON file and come back to it by choosing the date in a calendar.
 
