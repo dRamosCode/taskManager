@@ -25,6 +25,7 @@
     "@electron-toolkit/utils": "^4.0.0",
     "@mantine/core": "^8.3.9",
     "@mantine/hooks": "^8.3.9",
+    "@tabler/icons-react": "^3.35.0",
     "@tailwindcss/vite": "^4.1.17",
     "tailwindcss": "^4.1.17"
   },
