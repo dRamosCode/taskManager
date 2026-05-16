@@ -5,7 +5,8 @@ TaskManager
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/package-json/v/dRamosCode/taskmanager?label=Version
+  <img src="https://img.shields.io/github/package-json/v/dRamosCode/taskmanager
+  ?label=Version
   " alt="Version">
   <img src="https://img.shields.io/github/last-commit/dRamosCode/taskmanager?label=Last%20commit" alt="Last commit">
   <img src="https://img.shields.io/github/downloads/dRamosCode/taskmanager/total
