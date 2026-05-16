@@ -15,7 +15,7 @@ const ThemeOverride: MantineThemeOverride = {
       '#25262B',
       '#1A1B1E',
       '#141517',
-      '#101113',
+      '#101113'
     ],
     teal: [
       '#E6FCF5',
@@ -27,32 +27,32 @@ const ThemeOverride: MantineThemeOverride = {
       '#12B886',
       '#0CA678',
       '#099268',
-      '#087F5B',
-    ],
+      '#087F5B'
+    ]
   },
   defaultRadius: 'md',
   components: {
     Button: {
       defaultProps: {
-        radius: 'md',
-      },
+        radius: 'md'
+      }
     },
     Paper: {
       defaultProps: {
-        radius: 'md',
-      },
+        radius: 'md'
+      }
     },
     TextInput: {
       defaultProps: {
-        radius: 'md',
-      },
+        radius: 'md'
+      }
     },
     Modal: {
       defaultProps: {
-        radius: 'lg',
-      },
-    },
-  },
+        radius: 'lg'
+      }
+    }
+  }
 }
 
 export default ThemeOverride
