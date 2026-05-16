@@ -1,7 +1,17 @@
 <p align="center" > 
-<img src="https://github.com/dRamosCode/TaskManager/blob/master/resources/Images/Logo.png?raw=true"></img></p>
+<img src="https://github.com/dRamosCode/taskManager/blob/f6bcf806b25eb19460cba5b9f0e462794d8df71e/resources/icon.png?raw=true"></img></p>
+<h1 align="center">
+TaskManager
+</h1>
 
-# TaskManager
+<p align="center">
+  <img src="https://img.shields.io/github/package-json/v/dRamosCode/taskmanager?label=Version
+  " alt="Version">
+  <img src="https://img.shields.io/github/last-commit/dRamosCode/taskmanager?label=Last%20commit" alt="Last commit">
+  <img src="https://img.shields.io/github/downloads/dRamosCode/taskmanager/total
+  ?label=Downloads" alt="Downloads">
+    <img src="https://img.shields.io/github/license/dRamosCode/taskmanager?label=License" alt="License">
+</p>
 
 A desktop task manager with time tracking, calendar view, and system tray integration built with Electron, React, and TypeScript.
 
@@ -62,6 +72,7 @@ The installer will be created in the `dist/` directory.
 ## Data Location
 
 Task data is stored in the user's app data directory:
+
 - Windows: `%APPDATA%\TaskManager\data.json`
 - macOS: `~/Library/Application Support/TaskManager/data.json`
 - Linux: `~/.config/TaskManager/data.json`
