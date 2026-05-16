@@ -2,10 +2,14 @@ import './assets/main.css'
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { MantineProvider } from '@mantine/core'
+import ThemeOverride from './theme/ThemeOverride'
 import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <MantineProvider theme={ThemeOverride}>
+      <App />
+    </MantineProvider>
   </StrictMode>
 )
